@@ -1,16 +1,19 @@
 {
   "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./",
     "noImplicitAny": true,
     "preserveConstEnums": true,
     "sourceMap": true,
-    "target": "ES6",
     "downlevelIteration": true,
-    "module": "CommonJS",
-    "outDir": "dist",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "moduleResolution": "Node",
     "esModuleInterop": true,
-    "typeRoots": ["./node_modules/@types", "./src/types"]
-  }
+    "typeRoots": ["./node_modules/@types", "./types"]
+  },
+  "include": ["*.ts"],
+  "exclude": ["node_modules"]
 }
