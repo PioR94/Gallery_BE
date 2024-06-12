@@ -1,6 +1,6 @@
-export interface Photo {
-    id: string;
-    name: string;
+export interface PhotoType {
+    id?: string;
+    title: string;
     photo: string;
     description: string;
 }

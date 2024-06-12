@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/multer": "^1.4.11",
     "@types/node": "^20.12.12",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
@@ -23,7 +24,9 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
     "mysql2": "^2.3.3",
+    "primereact": "^10.6.6",
     "uuid": "^9.0.1"
   }
 }
